@@ -167,6 +167,6 @@ public class Product {
     @Override
     public String toString() {
         return "Mã: " + productId + ", Tên: " + productName + ", Giá: " + productPrice + ", Mô tả: " +description
-                +", Số lượng: " +stock + ", CatalogName: " + catalog.getCatalogName() +"Status: " + status;
+                +", Số lượng: " +stock + ", CatalogName: " + catalog.getCatalogName() +" , Status: " + status;
     }
 }

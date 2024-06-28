@@ -31,10 +31,13 @@ public class UserMenu {
                     cartService.showCart();
                     break;
                 case 4:
+                    cartService.updateQuantityById(sc);
                     break;
                 case 5:
+                    cartService.deleteProductOfCart(sc);
                     break;
                 case 6:
+                    cartService.deleteAll(sc);
                     break;
                 case 7:
                     quit = false;

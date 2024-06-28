@@ -22,8 +22,8 @@ public class ProductManagament {
                     "3. Sắp xếp sản phẩm theo giá giảm dần \n" +
                     "4. Xóa sản phẩm theo mã \n" +
                     "5. Tìm kiếm sản phẩm theo tên sản phẩm \n" +
-                    "6. Thay đổi thông tin của sản phẩm theo mã sản phẩm " +
-                    "7. Thoát");
+                    "6. Thay đổi thông tin của sản phẩm theo mã sản phẩm \n" +
+                    "7. Thoát\n");
             System.out.println("Lựa chọn của bạn: ");
             int choice = Integer.parseInt(scanner.nextLine());
             switch (choice) {
